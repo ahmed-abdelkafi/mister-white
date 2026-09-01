@@ -1,0 +1,21 @@
+{
+  "name": "@mister-white/worker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "build": "wrangler types",
+    "deploy": "wrangler deploy",
+    "d1:init": "wrangler d1 execute mister-white-db --local --file=./schema.sql"
+  },
+  "dependencies": {
+    "@mister-white/shared": "*",
+    "@mister-white/i18n": "*"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241022.0",
+    "typescript": "^5.6.3",
+    "wrangler": "^3.84.1"
+  }
+}

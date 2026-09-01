@@ -1,0 +1,32 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "mister-white-worker",
+  "main": "src/index.ts",
+  "compatibility_date": "2024-10-22",
+  "compatibility_flags": ["nodejs_compat"],
+  "account_id": "15780e7671cf26656615e325996f1afa",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "mister-white-db",
+      "database_id": "860b19da-3278-45ec-aa0c-86bb0b86fa50"
+    }
+  ],
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "ROOM_DO",
+        "class_name": "GameRoomDO"
+      }
+    ]
+  },
+  "ai": {
+    "binding": "AI"
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": ["GameRoomDO"]
+    }
+  ]
+}

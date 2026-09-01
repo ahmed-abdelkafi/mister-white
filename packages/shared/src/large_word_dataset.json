@@ -1,0 +1,2314 @@
+[
+  {
+    "id": "wp_1",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Lionel Messi",
+      "undercover": "Cristiano Ronaldo"
+    },
+    "fr": {
+      "civilian": "Lionel Messi",
+      "undercover": "Cristiano Ronaldo"
+    },
+    "ar": {
+      "civilian": "ليونيل ميسي",
+      "undercover": "كريستيانو رونالدو"
+    }
+  },
+  {
+    "id": "wp_2",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Kylian Mbappé",
+      "undercover": "Erling Haaland"
+    },
+    "fr": {
+      "civilian": "Kylian Mbappé",
+      "undercover": "Erling Haaland"
+    },
+    "ar": {
+      "civilian": "كيليان مبابي",
+      "undercover": "إرلينغ هالاند"
+    }
+  },
+  {
+    "id": "wp_3",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Zinedine Zidane",
+      "undercover": "Ronaldinho"
+    },
+    "fr": {
+      "civilian": "Zinédine Zidane",
+      "undercover": "Ronaldinho"
+    },
+    "ar": {
+      "civilian": "زين الدين زيدان",
+      "undercover": "رونالدينيو"
+    }
+  },
+  {
+    "id": "wp_4",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Karim Benzema",
+      "undercover": "Robert Lewandowski"
+    },
+    "fr": {
+      "civilian": "Karim Benzema",
+      "undercover": "Robert Lewandowski"
+    },
+    "ar": {
+      "civilian": "كريم بنزيما",
+      "undercover": "روبرت ليفاندوفسكي"
+    }
+  },
+  {
+    "id": "wp_5",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Neymar Jr",
+      "undercover": "Vinicius Jr"
+    },
+    "fr": {
+      "civilian": "Neymar Jr",
+      "undercover": "Vinicius Jr"
+    },
+    "ar": {
+      "civilian": "نيمار جونيور",
+      "undercover": "فينيسيوس جونيور"
+    }
+  },
+  {
+    "id": "wp_6",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Luka Modric",
+      "undercover": "Toni Kroos"
+    },
+    "fr": {
+      "civilian": "Luka Modric",
+      "undercover": "Toni Kroos"
+    },
+    "ar": {
+      "civilian": "لوكا مودريتش",
+      "undercover": "توني كروس"
+    }
+  },
+  {
+    "id": "wp_7",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Mohamed Salah",
+      "undercover": "Sadio Mané"
+    },
+    "fr": {
+      "civilian": "Mohamed Salah",
+      "undercover": "Sadio Mané"
+    },
+    "ar": {
+      "civilian": "محمد صلاح",
+      "undercover": "ساديو ماني"
+    }
+  },
+  {
+    "id": "wp_8",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Kevin De Bruyne",
+      "undercover": "Bernardo Silva"
+    },
+    "fr": {
+      "civilian": "Kevin De Bruyne",
+      "undercover": "Bernardo Silva"
+    },
+    "ar": {
+      "civilian": "كيفين دي بروين",
+      "undercover": "برناردو سيلفا"
+    }
+  },
+  {
+    "id": "wp_9",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Andrés Iniesta",
+      "undercover": "Xavi Hernandez"
+    },
+    "fr": {
+      "civilian": "Andrés Iniesta",
+      "undercover": "Xavi Hernandez"
+    },
+    "ar": {
+      "civilian": "أندريس إنييستا",
+      "undercover": "تشافي هيرنانديز"
+    }
+  },
+  {
+    "id": "wp_10",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Pelé",
+      "undercover": "Diego Maradona"
+    },
+    "fr": {
+      "civilian": "Pelé",
+      "undercover": "Diego Maradona"
+    },
+    "ar": {
+      "civilian": "بيليه",
+      "undercover": "دييغو مارادونا"
+    }
+  },
+  {
+    "id": "wp_11",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Gianluigi Buffon",
+      "undercover": "Iker Casillas"
+    },
+    "fr": {
+      "civilian": "Gianluigi Buffon",
+      "undercover": "Iker Casillas"
+    },
+    "ar": {
+      "civilian": "جانلويجي بوفون",
+      "undercover": "إيكر كاسياس"
+    }
+  },
+  {
+    "id": "wp_12",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Manuel Neuer",
+      "undercover": "Thibaut Courtois"
+    },
+    "fr": {
+      "civilian": "Manuel Neuer",
+      "undercover": "Thibaut Courtois"
+    },
+    "ar": {
+      "civilian": "مانويل نوير",
+      "undercover": "تيبو كورتوا"
+    }
+  },
+  {
+    "id": "wp_13",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Sergio Ramos",
+      "undercover": "Virgil van Dijk"
+    },
+    "fr": {
+      "civilian": "Sergio Ramos",
+      "undercover": "Virgil van Dijk"
+    },
+    "ar": {
+      "civilian": "سيرجيو راموس",
+      "undercover": "فيرجيل فان دايك"
+    }
+  },
+  {
+    "id": "wp_14",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Thierry Henry",
+      "undercover": "Dennis Bergkamp"
+    },
+    "fr": {
+      "civilian": "Thierry Henry",
+      "undercover": "Dennis Bergkamp"
+    },
+    "ar": {
+      "civilian": "تييري هنري",
+      "undercover": "دينيس بيركامب"
+    }
+  },
+  {
+    "id": "wp_15",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Kaká",
+      "undercover": "Andriy Shevchenko"
+    },
+    "fr": {
+      "civilian": "Kaká",
+      "undercover": "Andriy Shevchenko"
+    },
+    "ar": {
+      "civilian": "كاكا",
+      "undercover": "أندري شيفتشينكو"
+    }
+  },
+  {
+    "id": "wp_16",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Zlatan Ibrahimović",
+      "undercover": "Edinson Cavani"
+    },
+    "fr": {
+      "civilian": "Zlatan Ibrahimović",
+      "undercover": "Edinson Cavani"
+    },
+    "ar": {
+      "civilian": "زلاتان إبراهيموفيتش",
+      "undercover": "إدينسون كافاني"
+    }
+  },
+  {
+    "id": "wp_17",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Wayne Rooney",
+      "undercover": "Harry Kane"
+    },
+    "fr": {
+      "civilian": "Wayne Rooney",
+      "undercover": "Harry Kane"
+    },
+    "ar": {
+      "civilian": "واين روني",
+      "undercover": "هاري كين"
+    }
+  },
+  {
+    "id": "wp_18",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Jude Bellingham",
+      "undercover": "Pedri"
+    },
+    "fr": {
+      "civilian": "Jude Bellingham",
+      "undercover": "Pedri"
+    },
+    "ar": {
+      "civilian": "جود بيلينغهام",
+      "undercover": "بيدري"
+    }
+  },
+  {
+    "id": "wp_19",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Lamine Yamal",
+      "undercover": "Arda Güler"
+    },
+    "fr": {
+      "civilian": "Lamine Yamal",
+      "undercover": "Arda Güler"
+    },
+    "ar": {
+      "civilian": "لامين يامال",
+      "undercover": "أردا جولر"
+    }
+  },
+  {
+    "id": "wp_20",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Achraf Hakimi",
+      "undercover": "João Cancelo"
+    },
+    "fr": {
+      "civilian": "Achraf Hakimi",
+      "undercover": "João Cancelo"
+    },
+    "ar": {
+      "civilian": "أشرف حكيمي",
+      "undercover": "جواو كانسيلو"
+    }
+  },
+  {
+    "id": "wp_21",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Riyad Mahrez",
+      "undercover": "Heung-Min Son"
+    },
+    "fr": {
+      "civilian": "Riyad Mahrez",
+      "undercover": "Son Heung-min"
+    },
+    "ar": {
+      "civilian": "رياض محرز",
+      "undercover": "سون هيونغ مين"
+    }
+  },
+  {
+    "id": "wp_22",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Ronaldo Nazário (R9)",
+      "undercover": "Romário"
+    },
+    "fr": {
+      "civilian": "Ronaldo (R9)",
+      "undercover": "Romário"
+    },
+    "ar": {
+      "civilian": "رونالدو البرازيلي (الظاهرة)",
+      "undercover": "روماريو"
+    }
+  },
+  {
+    "id": "wp_23",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Antoine Griezmann",
+      "undercover": "Ousmane Dembélé"
+    },
+    "fr": {
+      "civilian": "Antoine Griezmann",
+      "undercover": "Ousmane Dembélé"
+    },
+    "ar": {
+      "civilian": "أنطوان غريزمان",
+      "undercover": "عثمان ديمبيلي"
+    }
+  },
+  {
+    "id": "wp_24",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Bukayo Saka",
+      "undercover": "Phil Foden"
+    },
+    "fr": {
+      "civilian": "Bukayo Saka",
+      "undercover": "Phil Foden"
+    },
+    "ar": {
+      "civilian": "بوكايو ساكا",
+      "undercover": "فيل فودين"
+    }
+  },
+  {
+    "id": "wp_25",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Rodri",
+      "undercover": "Sergio Busquets"
+    },
+    "fr": {
+      "civilian": "Rodri",
+      "undercover": "Sergio Busquets"
+    },
+    "ar": {
+      "civilian": "رودري",
+      "undercover": "سيرجيو بوسكيتس"
+    }
+  },
+  {
+    "id": "wp_26",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Luis Suárez",
+      "undercover": "Sergio Agüero"
+    },
+    "fr": {
+      "civilian": "Luis Suárez",
+      "undercover": "Sergio Agüero"
+    },
+    "ar": {
+      "civilian": "لويس سواريز",
+      "undercover": "سيرجيو أجويرو"
+    }
+  },
+  {
+    "id": "wp_27",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Gareth Bale",
+      "undercover": "Eden Hazard"
+    },
+    "fr": {
+      "civilian": "Gareth Bale",
+      "undercover": "Eden Hazard"
+    },
+    "ar": {
+      "civilian": "غاريث بيل",
+      "undercover": "إيدين هازارد"
+    }
+  },
+  {
+    "id": "wp_28",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "David Beckham",
+      "undercover": "Andrea Pirlo"
+    },
+    "fr": {
+      "civilian": "David Beckham",
+      "undercover": "Andrea Pirlo"
+    },
+    "ar": {
+      "civilian": "ديفيد بيكهام",
+      "undercover": "أندريا بيرلو"
+    }
+  },
+  {
+    "id": "wp_29",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Carles Puyol",
+      "undercover": "Gerard Piqué"
+    },
+    "fr": {
+      "civilian": "Carles Puyol",
+      "undercover": "Gerard Piqué"
+    },
+    "ar": {
+      "civilian": "كارليس بويول",
+      "undercover": "جيرارد بيكيه"
+    }
+  },
+  {
+    "id": "wp_30",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Paul Pogba",
+      "undercover": "N'Golo Kanté"
+    },
+    "fr": {
+      "civilian": "Paul Pogba",
+      "undercover": "N'Golo Kanté"
+    },
+    "ar": {
+      "civilian": "بول بوغبا",
+      "undercover": "نغولو كانتي"
+    }
+  },
+  {
+    "id": "wp_31",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Yassine Bounou",
+      "undercover": "Emiliano Martínez"
+    },
+    "fr": {
+      "civilian": "Yassine Bounou",
+      "undercover": "Emiliano Martínez"
+    },
+    "ar": {
+      "civilian": "ياسين بونو",
+      "undercover": "إيميليانو مارتينيز"
+    }
+  },
+  {
+    "id": "wp_32",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Victor Osimhen",
+      "undercover": "Alexander Isak"
+    },
+    "fr": {
+      "civilian": "Victor Osimhen",
+      "undercover": "Alexander Isak"
+    },
+    "ar": {
+      "civilian": "فيكتور أوسيمين",
+      "undercover": "ألكسندر إيزاك"
+    }
+  },
+  {
+    "id": "wp_33",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Lautaro Martínez",
+      "undercover": "Julián Álvarez"
+    },
+    "fr": {
+      "civilian": "Lautaro Martínez",
+      "undercover": "Julián Álvarez"
+    },
+    "ar": {
+      "civilian": "لاوتارو مارتينيز",
+      "undercover": "جوليان ألفاريز"
+    }
+  },
+  {
+    "id": "wp_34",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Declan Rice",
+      "undercover": "Moisés Caicedo"
+    },
+    "fr": {
+      "civilian": "Declan Rice",
+      "undercover": "Moisés Caicedo"
+    },
+    "ar": {
+      "civilian": "ديكلان رايس",
+      "undercover": "مويسيس كايسيدو"
+    }
+  },
+  {
+    "id": "wp_35",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Cole Palmer",
+      "undercover": "Florian Wirtz"
+    },
+    "fr": {
+      "civilian": "Cole Palmer",
+      "undercover": "Florian Wirtz"
+    },
+    "ar": {
+      "civilian": "كول بالمر",
+      "undercover": "فلوريان فيرتز"
+    }
+  },
+  {
+    "id": "wp_36",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Jamal Musiala",
+      "undercover": "Rafael Leão"
+    },
+    "fr": {
+      "civilian": "Jamal Musiala",
+      "undercover": "Rafael Leão"
+    },
+    "ar": {
+      "civilian": "جمال موسيالا",
+      "undercover": "رافائيل لياو"
+    }
+  },
+  {
+    "id": "wp_37",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Federico Valverde",
+      "undercover": "Eduardo Camavinga"
+    },
+    "fr": {
+      "civilian": "Federico Valverde",
+      "undercover": "Eduardo Camavinga"
+    },
+    "ar": {
+      "civilian": "فيديريكو فالفيردي",
+      "undercover": "إدواردو كامافينجا"
+    }
+  },
+  {
+    "id": "wp_38",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Alisson Becker",
+      "undercover": "Ederson Moraes"
+    },
+    "fr": {
+      "civilian": "Alisson Becker",
+      "undercover": "Ederson Moraes"
+    },
+    "ar": {
+      "civilian": "أليسون بيكر",
+      "undercover": "إيدرسون مورايس"
+    }
+  },
+  {
+    "id": "wp_39",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Jan Oblak",
+      "undercover": "Marc-André ter Stegen"
+    },
+    "fr": {
+      "civilian": "Jan Oblak",
+      "undercover": "Marc-André ter Stegen"
+    },
+    "ar": {
+      "civilian": "يان أوبلاك",
+      "undercover": "مارك أندريه تير شتيغن"
+    }
+  },
+  {
+    "id": "wp_40",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Didier Drogba",
+      "undercover": "Samuel Eto'o"
+    },
+    "fr": {
+      "civilian": "Didier Drogba",
+      "undercover": "Samuel Eto'o"
+    },
+    "ar": {
+      "civilian": "ديدييه دروغبا",
+      "undercover": "صامويل إيتو"
+    }
+  },
+  {
+    "id": "wp_41",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Yaya Touré",
+      "undercover": "Michael Essien"
+    },
+    "fr": {
+      "civilian": "Yaya Touré",
+      "undercover": "Michael Essien"
+    },
+    "ar": {
+      "civilian": "يايا توريه",
+      "undercover": "مايكل إيسيان"
+    }
+  },
+  {
+    "id": "wp_42",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Paolo Maldini",
+      "undercover": "Franco Baresi"
+    },
+    "fr": {
+      "civilian": "Paolo Maldini",
+      "undercover": "Franco Baresi"
+    },
+    "ar": {
+      "civilian": "باولو مالديني",
+      "undercover": "فرانكو باريزي"
+    }
+  },
+  {
+    "id": "wp_43",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Alessandro Nesta",
+      "undercover": "Fabio Cannavaro"
+    },
+    "fr": {
+      "civilian": "Alessandro Nesta",
+      "undercover": "Fabio Cannavaro"
+    },
+    "ar": {
+      "civilian": "أليساندرو نيستا",
+      "undercover": "فابيو كانافارو"
+    }
+  },
+  {
+    "id": "wp_44",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Gennaro Gattuso",
+      "undercover": "Roy Keane"
+    },
+    "fr": {
+      "civilian": "Gennaro Gattuso",
+      "undercover": "Roy Keane"
+    },
+    "ar": {
+      "civilian": "جينارو غاتوزو",
+      "undercover": "روي كين"
+    }
+  },
+  {
+    "id": "wp_45",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Clarence Seedorf",
+      "undercover": "Edgar Davids"
+    },
+    "fr": {
+      "civilian": "Clarence Seedorf",
+      "undercover": "Edgar Davids"
+    },
+    "ar": {
+      "civilian": "كلارنس سيدورف",
+      "undercover": "إدغار دافيدز"
+    }
+  },
+  {
+    "id": "wp_46",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Ruud van Nistelrooy",
+      "undercover": "Robin van Persie"
+    },
+    "fr": {
+      "civilian": "Ruud van Nistelrooy",
+      "undercover": "Robin van Persie"
+    },
+    "ar": {
+      "civilian": "رود فان نيستلروي",
+      "undercover": "روبين فان بيرسي"
+    }
+  },
+  {
+    "id": "wp_47",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Franck Ribéry",
+      "undercover": "Arjen Robben"
+    },
+    "fr": {
+      "civilian": "Franck Ribéry",
+      "undercover": "Arjen Robben"
+    },
+    "ar": {
+      "civilian": "فرانك ريبيري",
+      "undercover": "آريين روبن"
+    }
+  },
+  {
+    "id": "wp_48",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Trent Alexander-Arnold",
+      "undercover": "Andy Robertson"
+    },
+    "fr": {
+      "civilian": "Trent Alexander-Arnold",
+      "undercover": "Andy Robertson"
+    },
+    "ar": {
+      "civilian": "ترينت ألكسندر أرنولد",
+      "undercover": "أندي روبرتسون"
+    }
+  },
+  {
+    "id": "wp_49",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Alphonso Davies",
+      "undercover": "Theo Hernandez"
+    },
+    "fr": {
+      "civilian": "Alphonso Davies",
+      "undercover": "Theo Hernandez"
+    },
+    "ar": {
+      "civilian": "ألفونسو ديفيز",
+      "undercover": "ثيو هيرنانديز"
+    }
+  },
+  {
+    "id": "wp_50",
+    "category": "footballers",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Gavi",
+      "undercover": "Warren Zaïre-Emery"
+    },
+    "fr": {
+      "civilian": "Gavi",
+      "undercover": "Warren Zaïre-Emery"
+    },
+    "ar": {
+      "civilian": "غافي",
+      "undercover": "وارن زائير إيمري"
+    }
+  },
+  {
+    "id": "wp_51",
+    "category": "headcoaches",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Pep Guardiola",
+      "undercover": "Jürgen Klopp"
+    },
+    "fr": {
+      "civilian": "Pep Guardiola",
+      "undercover": "Jürgen Klopp"
+    },
+    "ar": {
+      "civilian": "بيب غوارديولا",
+      "undercover": "يورغن كلوب"
+    }
+  },
+  {
+    "id": "wp_52",
+    "category": "headcoaches",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Carlo Ancelotti",
+      "undercover": "José Mourinho"
+    },
+    "fr": {
+      "civilian": "Carlo Ancelotti",
+      "undercover": "José Mourinho"
+    },
+    "ar": {
+      "civilian": "كارلو أنشيلوتي",
+      "undercover": "جوزيه مورينيو"
+    }
+  },
+  {
+    "id": "wp_53",
+    "category": "headcoaches",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Zinedine Zidane (Manager)",
+      "undercover": "Diego Simeone"
+    },
+    "fr": {
+      "civilian": "Zinédine Zidane (Entraîneur)",
+      "undercover": "Diego Simeone"
+    },
+    "ar": {
+      "civilian": "زين الدين زيدان (مدرب)",
+      "undercover": "دييغو سيميوني"
+    }
+  },
+  {
+    "id": "wp_54",
+    "category": "headcoaches",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Sir Alex Ferguson",
+      "undercover": "Arsène Wenger"
+    },
+    "fr": {
+      "civilian": "Sir Alex Ferguson",
+      "undercover": "Arsène Wenger"
+    },
+    "ar": {
+      "civilian": "سير أليكس فيرغسون",
+      "undercover": "أرسين فينغر"
+    }
+  },
+  {
+    "id": "wp_55",
+    "category": "headcoaches",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Mikel Arteta",
+      "undercover": "Xabi Alonso"
+    },
+    "fr": {
+      "civilian": "Mikel Arteta",
+      "undercover": "Xabi Alonso"
+    },
+    "ar": {
+      "civilian": "ميكيل أرتيتا",
+      "undercover": "تشابي ألونسو"
+    }
+  },
+  {
+    "id": "wp_56",
+    "category": "headcoaches",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Hansi Flick",
+      "undercover": "Julian Nagelsmann"
+    },
+    "fr": {
+      "civilian": "Hansi Flick",
+      "undercover": "Julian Nagelsmann"
+    },
+    "ar": {
+      "civilian": "هانز فليك",
+      "undercover": "يوليان ناغلسمان"
+    }
+  },
+  {
+    "id": "wp_57",
+    "category": "headcoaches",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Thomas Tuchel",
+      "undercover": "Antonio Conte"
+    },
+    "fr": {
+      "civilian": "Thomas Tuchel",
+      "undercover": "Antonio Conte"
+    },
+    "ar": {
+      "civilian": "توماس توخيل",
+      "undercover": "أنطونيو كونتي"
+    }
+  },
+  {
+    "id": "wp_58",
+    "category": "headcoaches",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Luis Enrique",
+      "undercover": "Unai Emery"
+    },
+    "fr": {
+      "civilian": "Luis Enrique",
+      "undercover": "Unai Emery"
+    },
+    "ar": {
+      "civilian": "لويس إنريكي",
+      "undercover": "أوناي إيمري"
+    }
+  },
+  {
+    "id": "wp_59",
+    "category": "headcoaches",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Walid Regragui",
+      "undercover": "Djamel Belmadi"
+    },
+    "fr": {
+      "civilian": "Walid Regragui",
+      "undercover": "Djamel Belmadi"
+    },
+    "ar": {
+      "civilian": "وليد الركراكي",
+      "undercover": "جمال بلماضي"
+    }
+  },
+  {
+    "id": "wp_60",
+    "category": "headcoaches",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Didier Deschamps",
+      "undercover": "Lionel Scaloni"
+    },
+    "fr": {
+      "civilian": "Didier Deschamps",
+      "undercover": "Lionel Scaloni"
+    },
+    "ar": {
+      "civilian": "ديدييه ديشان",
+      "undercover": "ليونيل سكالوني"
+    }
+  },
+  {
+    "id": "wp_61",
+    "category": "headcoaches",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Marcelo Bielsa",
+      "undercover": "Mauricio Pochettino"
+    },
+    "fr": {
+      "civilian": "Marcelo Bielsa",
+      "undercover": "Mauricio Pochettino"
+    },
+    "ar": {
+      "civilian": "مارسيلو بيلسا",
+      "undercover": "ماوريسيو بوكيتينو"
+    }
+  },
+  {
+    "id": "wp_62",
+    "category": "headcoaches",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Erik ten Hag",
+      "undercover": "Ruben Amorim"
+    },
+    "fr": {
+      "civilian": "Erik ten Hag",
+      "undercover": "Ruben Amorim"
+    },
+    "ar": {
+      "civilian": "إريك تين هاج",
+      "undercover": "روبين أموريم"
+    }
+  },
+  {
+    "id": "wp_63",
+    "category": "headcoaches",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Fabio Capello",
+      "undercover": "Marcello Lippi"
+    },
+    "fr": {
+      "civilian": "Fabio Capello",
+      "undercover": "Marcello Lippi"
+    },
+    "ar": {
+      "civilian": "فابيو كابيلو",
+      "undercover": "مارتشيلو ليبي"
+    }
+  },
+  {
+    "id": "wp_64",
+    "category": "headcoaches",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Massimiliano Allegri",
+      "undercover": "Luciano Spalletti"
+    },
+    "fr": {
+      "civilian": "Massimiliano Allegri",
+      "undercover": "Luciano Spalletti"
+    },
+    "ar": {
+      "civilian": "ماسيميليانو أليغري",
+      "undercover": "لوتشيانو سباليتي"
+    }
+  },
+  {
+    "id": "wp_65",
+    "category": "headcoaches",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Roberto Mancini",
+      "undercover": "Claudio Ranieri"
+    },
+    "fr": {
+      "civilian": "Roberto Mancini",
+      "undercover": "Claudio Ranieri"
+    },
+    "ar": {
+      "civilian": "روبرتو مانشيني",
+      "undercover": "كلاوديو رانييري"
+    }
+  },
+  {
+    "id": "wp_66",
+    "category": "headcoaches",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Simone Inzaghi",
+      "undercover": "Thiago Motta"
+    },
+    "fr": {
+      "civilian": "Simone Inzaghi",
+      "undercover": "Thiago Motta"
+    },
+    "ar": {
+      "civilian": "سيموني إنزاغي",
+      "undercover": "تياغو موتا"
+    }
+  },
+  {
+    "id": "wp_67",
+    "category": "headcoaches",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Ange Postecoglou",
+      "undercover": "Eddie Howe"
+    },
+    "fr": {
+      "civilian": "Ange Postecoglou",
+      "undercover": "Eddie Howe"
+    },
+    "ar": {
+      "civilian": "أنجي بوستيكوجلو",
+      "undercover": "إيدي هاو"
+    }
+  },
+  {
+    "id": "wp_68",
+    "category": "headcoaches",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Roberto De Zerbi",
+      "undercover": "Arne Slot"
+    },
+    "fr": {
+      "civilian": "Roberto De Zerbi",
+      "undercover": "Arne Slot"
+    },
+    "ar": {
+      "civilian": "روبرتو دي زيربي",
+      "undercover": "أرني سلوت"
+    }
+  },
+  {
+    "id": "wp_69",
+    "category": "headcoaches",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Enzo Maresca",
+      "undercover": "Gian Piero Gasperini"
+    },
+    "fr": {
+      "civilian": "Enzo Maresca",
+      "undercover": "Gian Piero Gasperini"
+    },
+    "ar": {
+      "civilian": "إنزو ماريسكا",
+      "undercover": "جان بييرو غاسبيريني"
+    }
+  },
+  {
+    "id": "wp_70",
+    "category": "headcoaches",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Rafa Benitez",
+      "undercover": "Louis van Gaal"
+    },
+    "fr": {
+      "civilian": "Rafa Benitez",
+      "undercover": "Louis van Gaal"
+    },
+    "ar": {
+      "civilian": "رافا بينيتيز",
+      "undercover": "لويس فان غال"
+    }
+  },
+  {
+    "id": "wp_71",
+    "category": "headcoaches",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Guus Hiddink",
+      "undercover": "Vicente del Bosque"
+    },
+    "fr": {
+      "civilian": "Guus Hiddink",
+      "undercover": "Vicente del Bosque"
+    },
+    "ar": {
+      "civilian": "غوس هيدينك",
+      "undercover": "فيسنتي ديل بوسكي"
+    }
+  },
+  {
+    "id": "wp_72",
+    "category": "headcoaches",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Jupp Heynckes",
+      "undercover": "Joachim Löw"
+    },
+    "fr": {
+      "civilian": "Jupp Heynckes",
+      "undercover": "Joachim Löw"
+    },
+    "ar": {
+      "civilian": "يوب هاينكس",
+      "undercover": "يواكيم لوف"
+    }
+  },
+  {
+    "id": "wp_73",
+    "category": "football_clubs",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Real Madrid",
+      "undercover": "FC Barcelona"
+    },
+    "fr": {
+      "civilian": "Real Madrid",
+      "undercover": "FC Barcelone"
+    },
+    "ar": {
+      "civilian": "ريال مدريد",
+      "undercover": "برشلونة"
+    }
+  },
+  {
+    "id": "wp_74",
+    "category": "football_clubs",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Manchester City",
+      "undercover": "Liverpool FC"
+    },
+    "fr": {
+      "civilian": "Manchester City",
+      "undercover": "Liverpool"
+    },
+    "ar": {
+      "civilian": "مانشستر سيتي",
+      "undercover": "ليفربول"
+    }
+  },
+  {
+    "id": "wp_75",
+    "category": "football_clubs",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Manchester United",
+      "undercover": "Arsenal"
+    },
+    "fr": {
+      "civilian": "Manchester United",
+      "undercover": "Arsenal"
+    },
+    "ar": {
+      "civilian": "مانشستر يونايتد",
+      "undercover": "أرسنال"
+    }
+  },
+  {
+    "id": "wp_76",
+    "category": "football_clubs",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Paris Saint-Germain",
+      "undercover": "Olympique de Marseille"
+    },
+    "fr": {
+      "civilian": "Paris Saint-Germain",
+      "undercover": "Olympique de Marseille"
+    },
+    "ar": {
+      "civilian": "باريس سان جيرمان",
+      "undercover": "أولمبيك مارسيليا"
+    }
+  },
+  {
+    "id": "wp_77",
+    "category": "football_clubs",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Bayern Munich",
+      "undercover": "Borussia Dortmund"
+    },
+    "fr": {
+      "civilian": "Bayern Munich",
+      "undercover": "Borussia Dortmund"
+    },
+    "ar": {
+      "civilian": "بايرن ميونخ",
+      "undercover": "بوروسيا دورتموند"
+    }
+  },
+  {
+    "id": "wp_78",
+    "category": "football_clubs",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Inter Milan",
+      "undercover": "AC Milan"
+    },
+    "fr": {
+      "civilian": "Inter Milan",
+      "undercover": "AC Milan"
+    },
+    "ar": {
+      "civilian": "إنتر ميلان",
+      "undercover": "إيه سي ميلان"
+    }
+  },
+  {
+    "id": "wp_79",
+    "category": "football_clubs",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Juventus",
+      "undercover": "AS Roma"
+    },
+    "fr": {
+      "civilian": "Juventus",
+      "undercover": "AS Rome"
+    },
+    "ar": {
+      "civilian": "يوفنتوس",
+      "undercover": "روما"
+    }
+  },
+  {
+    "id": "wp_80",
+    "category": "football_clubs",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Al Hilal",
+      "undercover": "Al Nassr"
+    },
+    "fr": {
+      "civilian": "Al-Hilal",
+      "undercover": "Al-Nassr"
+    },
+    "ar": {
+      "civilian": "الهلال السعودي",
+      "undercover": "النصر السعودي"
+    }
+  },
+  {
+    "id": "wp_81",
+    "category": "football_clubs",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Al Ahly",
+      "undercover": "Zamalek"
+    },
+    "fr": {
+      "civilian": "Al Ahly",
+      "undercover": "Zamalek"
+    },
+    "ar": {
+      "civilian": "الأهلي المصري",
+      "undercover": "الزمالك"
+    }
+  },
+  {
+    "id": "wp_82",
+    "category": "football_clubs",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Chelsea FC",
+      "undercover": "Tottenham Hotspur"
+    },
+    "fr": {
+      "civilian": "Chelsea",
+      "undercover": "Tottenham"
+    },
+    "ar": {
+      "civilian": "تشيلسي",
+      "undercover": "توتنهام"
+    }
+  },
+  {
+    "id": "wp_83",
+    "category": "football_clubs",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Atlético Madrid",
+      "undercover": "Sevilla FC"
+    },
+    "fr": {
+      "civilian": "Atlético de Madrid",
+      "undercover": "Séville FC"
+    },
+    "ar": {
+      "civilian": "أتلتيكو مدريد",
+      "undercover": "إشبيلية"
+    }
+  },
+  {
+    "id": "wp_84",
+    "category": "football_clubs",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Wydad Casablanca",
+      "undercover": "Raja Casablanca"
+    },
+    "fr": {
+      "civilian": "Wydad Casablanca",
+      "undercover": "Raja Casablanca"
+    },
+    "ar": {
+      "civilian": "الوداد البيضاوي",
+      "undercover": "الرجاء البيضاوي"
+    }
+  },
+  {
+    "id": "wp_85",
+    "category": "football_clubs",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Espérance de Tunis",
+      "undercover": "Club Africain"
+    },
+    "fr": {
+      "civilian": "Espérance de Tunis",
+      "undercover": "Club Africain"
+    },
+    "ar": {
+      "civilian": "الترجي التونسي",
+      "undercover": "النادي الإفريقي"
+    }
+  },
+  {
+    "id": "wp_86",
+    "category": "football_clubs",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Étoile du Sahel",
+      "undercover": "CS Sfaxien"
+    },
+    "fr": {
+      "civilian": "Étoile du Sahel",
+      "undercover": "CS Sfaxien"
+    },
+    "ar": {
+      "civilian": "النجم الساحلي",
+      "undercover": "النادي الصفاقسي"
+    }
+  },
+  {
+    "id": "wp_87",
+    "category": "football_clubs",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Boca Juniors",
+      "undercover": "River Plate"
+    },
+    "fr": {
+      "civilian": "Boca Juniors",
+      "undercover": "River Plate"
+    },
+    "ar": {
+      "civilian": "بوكا جونيورز",
+      "undercover": "ريفر بليت"
+    }
+  },
+  {
+    "id": "wp_88",
+    "category": "football_clubs",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Flamengo",
+      "undercover": "Palmeiras"
+    },
+    "fr": {
+      "civilian": "Flamengo",
+      "undercover": "Palmeiras"
+    },
+    "ar": {
+      "civilian": "فلامنغو",
+      "undercover": "بالميراس"
+    }
+  },
+  {
+    "id": "wp_89",
+    "category": "football_clubs",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Ajax Amsterdam",
+      "undercover": "PSV Eindhoven"
+    },
+    "fr": {
+      "civilian": "Ajax Amsterdam",
+      "undercover": "PSV Eindhoven"
+    },
+    "ar": {
+      "civilian": "أياكس أمستردام",
+      "undercover": "بي إس في آيندهوفن"
+    }
+  },
+  {
+    "id": "wp_90",
+    "category": "football_clubs",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Benfica",
+      "undercover": "FC Porto"
+    },
+    "fr": {
+      "civilian": "Benfica",
+      "undercover": "FC Porto"
+    },
+    "ar": {
+      "civilian": "بنفيكا",
+      "undercover": "بورتو"
+    }
+  },
+  {
+    "id": "wp_91",
+    "category": "football_clubs",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Celtic FC",
+      "undercover": "Rangers FC"
+    },
+    "fr": {
+      "civilian": "Celtic Glasgow",
+      "undercover": "Rangers FC"
+    },
+    "ar": {
+      "civilian": "سيلتيك",
+      "undercover": "رينجرز"
+    }
+  },
+  {
+    "id": "wp_92",
+    "category": "football_clubs",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Santiago Bernabéu",
+      "undercover": "Camp Nou"
+    },
+    "fr": {
+      "civilian": "Santiago Bernabéu",
+      "undercover": "Camp Nou"
+    },
+    "ar": {
+      "civilian": "ملعب سانتياغو برنابيو",
+      "undercover": "ملعب كامب نو"
+    }
+  },
+  {
+    "id": "wp_93",
+    "category": "football_clubs",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "San Siro",
+      "undercover": "Wembley Stadium"
+    },
+    "fr": {
+      "civilian": "San Siro",
+      "undercover": "Stade de Wembley"
+    },
+    "ar": {
+      "civilian": "ملعب سان سيرو",
+      "undercover": "ملعب ويمبلي"
+    }
+  },
+  {
+    "id": "wp_94",
+    "category": "football_clubs",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Old Trafford",
+      "undercover": "Anfield"
+    },
+    "fr": {
+      "civilian": "Old Trafford",
+      "undercover": "Anfield"
+    },
+    "ar": {
+      "civilian": "ملعب أولد ترافورد",
+      "undercover": "ملعب أنفيلد"
+    }
+  },
+  {
+    "id": "wp_95",
+    "category": "football_clubs",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Allianz Arena",
+      "undercover": "Signal Iduna Park"
+    },
+    "fr": {
+      "civilian": "Allianz Arena",
+      "undercover": "Signal Iduna Park"
+    },
+    "ar": {
+      "civilian": "أليانز أرينا",
+      "undercover": "سيغنال إيدونا بارك"
+    }
+  },
+  {
+    "id": "wp_96",
+    "category": "football_clubs",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Stade de France",
+      "undercover": "Maracanã"
+    },
+    "fr": {
+      "civilian": "Stade de France",
+      "undercover": "Maracanã"
+    },
+    "ar": {
+      "civilian": "ستاد دو فرانس",
+      "undercover": "ملعب ماراكانا"
+    }
+  },
+  {
+    "id": "wp_97",
+    "category": "anime_movies",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Goku",
+      "undercover": "Vegeta"
+    },
+    "fr": {
+      "civilian": "Goku",
+      "undercover": "Vegeta"
+    },
+    "ar": {
+      "civilian": "غوكو",
+      "undercover": "فيجيتا"
+    }
+  },
+  {
+    "id": "wp_98",
+    "category": "anime_movies",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Naruto Uzumaki",
+      "undercover": "Sasuke Uchiha"
+    },
+    "fr": {
+      "civilian": "Naruto Uzumaki",
+      "undercover": "Sasuke Uchiha"
+    },
+    "ar": {
+      "civilian": "ناروتو أوزوماكي",
+      "undercover": "ساسكي أوتشيها"
+    }
+  },
+  {
+    "id": "wp_99",
+    "category": "anime_movies",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Monkey D. Luffy",
+      "undercover": "Roronoa Zoro"
+    },
+    "fr": {
+      "civilian": "Monkey D. Luffy",
+      "undercover": "Roronoa Zoro"
+    },
+    "ar": {
+      "civilian": "مونكي دي لوفي",
+      "undercover": "رورونوا زورو"
+    }
+  },
+  {
+    "id": "wp_100",
+    "category": "anime_movies",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Eren Yeager",
+      "undercover": "Levi Ackerman"
+    },
+    "fr": {
+      "civilian": "Eren Jäger",
+      "undercover": "Livaï Ackerman"
+    },
+    "ar": {
+      "civilian": "إيرين ييغر",
+      "undercover": "ليفاي أكرمان"
+    }
+  },
+  {
+    "id": "wp_101",
+    "category": "anime_movies",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Batman",
+      "undercover": "Superman"
+    },
+    "fr": {
+      "civilian": "Batman",
+      "undercover": "Superman"
+    },
+    "ar": {
+      "civilian": "باتمان (الرجل الوطواط)",
+      "undercover": "سوبرمان (الرجل الخارق)"
+    }
+  },
+  {
+    "id": "wp_102",
+    "category": "anime_movies",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Iron Man",
+      "undercover": "Captain America"
+    },
+    "fr": {
+      "civilian": "Iron Man",
+      "undercover": "Captain America"
+    },
+    "ar": {
+      "civilian": "آيرون مان (الرجل الحديدي)",
+      "undercover": "كابتن أمريكا"
+    }
+  },
+  {
+    "id": "wp_103",
+    "category": "anime_movies",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Spider-Man",
+      "undercover": "Deadpool"
+    },
+    "fr": {
+      "civilian": "Spider-Man",
+      "undercover": "Deadpool"
+    },
+    "ar": {
+      "civilian": "سبايدرمان (الرجل العنكبوت)",
+      "undercover": "ديدبول"
+    }
+  },
+  {
+    "id": "wp_104",
+    "category": "anime_movies",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Joker",
+      "undercover": "Thanos"
+    },
+    "fr": {
+      "civilian": "Joker",
+      "undercover": "Thanos"
+    },
+    "ar": {
+      "civilian": "الجوكر",
+      "undercover": "ثانوس"
+    }
+  },
+  {
+    "id": "wp_105",
+    "category": "anime_movies",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Harry Potter",
+      "undercover": "Lord Voldemort"
+    },
+    "fr": {
+      "civilian": "Harry Potter",
+      "undercover": "Lord Voldemort"
+    },
+    "ar": {
+      "civilian": "هاري بوتر",
+      "undercover": "فولدمورت"
+    }
+  },
+  {
+    "id": "wp_106",
+    "category": "anime_movies",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Darth Vader",
+      "undercover": "Luke Skywalker"
+    },
+    "fr": {
+      "civilian": "Dark Vador",
+      "undercover": "Luke Skywalker"
+    },
+    "ar": {
+      "civilian": "دارث فيدر",
+      "undercover": "لوك سكاي ووكر"
+    }
+  },
+  {
+    "id": "wp_107",
+    "category": "anime_movies",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Light Yagami (Kira)",
+      "undercover": "L (Death Note)"
+    },
+    "fr": {
+      "civilian": "Light Yagami",
+      "undercover": "L Lawliet"
+    },
+    "ar": {
+      "civilian": "لايت ياغامي (كيرا)",
+      "undercover": "إل (ديث نوت)"
+    }
+  },
+  {
+    "id": "wp_108",
+    "category": "anime_movies",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Tanjiro Kamado",
+      "undercover": "Nezuko Kamado"
+    },
+    "fr": {
+      "civilian": "Tanjiro Kamado",
+      "undercover": "Nezuko Kamado"
+    },
+    "ar": {
+      "civilian": "تانجيرو كامادو",
+      "undercover": "نيزوكو كامادو"
+    }
+  },
+  {
+    "id": "wp_109",
+    "category": "anime_movies",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Gojo Satoru",
+      "undercover": "Ryomen Sukuna"
+    },
+    "fr": {
+      "civilian": "Satoru Gojo",
+      "undercover": "Ryomen Sukuna"
+    },
+    "ar": {
+      "civilian": "ساتورو غوجو",
+      "undercover": "ريومين سوكونا"
+    }
+  },
+  {
+    "id": "wp_110",
+    "category": "anime_movies",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Edward Elric",
+      "undercover": "Alphonse Elric"
+    },
+    "fr": {
+      "civilian": "Edward Elric",
+      "undercover": "Alphonse Elric"
+    },
+    "ar": {
+      "civilian": "إدوارد إلريك",
+      "undercover": "ألفونس إلريك"
+    }
+  },
+  {
+    "id": "wp_111",
+    "category": "anime_movies",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Thor",
+      "undercover": "Loki"
+    },
+    "fr": {
+      "civilian": "Thor",
+      "undercover": "Loki"
+    },
+    "ar": {
+      "civilian": "ثور",
+      "undercover": "لوكي"
+    }
+  },
+  {
+    "id": "wp_112",
+    "category": "anime_movies",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Wolverine",
+      "undercover": "Magneto"
+    },
+    "fr": {
+      "civilian": "Wolverine",
+      "undercover": "Magnéto"
+    },
+    "ar": {
+      "civilian": "وولفرين",
+      "undercover": "ماغنيتو"
+    }
+  },
+  {
+    "id": "wp_113",
+    "category": "anime_movies",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Sherlock Holmes",
+      "undercover": "Professor Moriarty"
+    },
+    "fr": {
+      "civilian": "Sherlock Holmes",
+      "undercover": "Professeur Moriarty"
+    },
+    "ar": {
+      "civilian": "شارلوك هولمز",
+      "undercover": "البروفيسور موريارتي"
+    }
+  },
+  {
+    "id": "wp_114",
+    "category": "anime_movies",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Gandalf",
+      "undercover": "Sauron"
+    },
+    "fr": {
+      "civilian": "Gandalf",
+      "undercover": "Sauron"
+    },
+    "ar": {
+      "civilian": "غاندالف",
+      "undercover": "ساورون"
+    }
+  },
+  {
+    "id": "wp_115",
+    "category": "anime_movies",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Frodo Baggins",
+      "undercover": "Samwise Gamgee"
+    },
+    "fr": {
+      "civilian": "Frodon Sacquet",
+      "undercover": "Samsagace Gamegie"
+    },
+    "ar": {
+      "civilian": "فرودو باجنز",
+      "undercover": "ساموايز غامجي"
+    }
+  },
+  {
+    "id": "wp_116",
+    "category": "anime_movies",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Jack Sparrow",
+      "undercover": "Captain Barbossa"
+    },
+    "fr": {
+      "civilian": "Jack Sparrow",
+      "undercover": "Capitaine Barbossa"
+    },
+    "ar": {
+      "civilian": "جاك سبارو",
+      "undercover": "الكابتن باربوسا"
+    }
+  },
+  {
+    "id": "wp_117",
+    "category": "cities_countries",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Paris",
+      "undercover": "London"
+    },
+    "fr": {
+      "civilian": "Paris",
+      "undercover": "Londres"
+    },
+    "ar": {
+      "civilian": "باريس",
+      "undercover": "لندن"
+    }
+  },
+  {
+    "id": "wp_118",
+    "category": "cities_countries",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Tokyo",
+      "undercover": "Seoul"
+    },
+    "fr": {
+      "civilian": "Tokyo",
+      "undercover": "Séoul"
+    },
+    "ar": {
+      "civilian": "طوكيو",
+      "undercover": "سيول"
+    }
+  },
+  {
+    "id": "wp_119",
+    "category": "cities_countries",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Dubai",
+      "undercover": "Doha"
+    },
+    "fr": {
+      "civilian": "Dubaï",
+      "undercover": "Doha"
+    },
+    "ar": {
+      "civilian": "دبي",
+      "undercover": "الدوحة"
+    }
+  },
+  {
+    "id": "wp_120",
+    "category": "cities_countries",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Riyadh",
+      "undercover": "Cairo"
+    },
+    "fr": {
+      "civilian": "Riyad",
+      "undercover": "Le Caire"
+    },
+    "ar": {
+      "civilian": "الرياض",
+      "undercover": "القاهرة"
+    }
+  },
+  {
+    "id": "wp_121",
+    "category": "cities_countries",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "New York",
+      "undercover": "Los Angeles"
+    },
+    "fr": {
+      "civilian": "New York",
+      "undercover": "Los Angeles"
+    },
+    "ar": {
+      "civilian": "نيويورك",
+      "undercover": "لوس أنجلوس"
+    }
+  },
+  {
+    "id": "wp_122",
+    "category": "cities_countries",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Rome",
+      "undercover": "Athens"
+    },
+    "fr": {
+      "civilian": "Rome",
+      "undercover": "Athènes"
+    },
+    "ar": {
+      "civilian": "روما",
+      "undercover": "أثينا"
+    }
+  },
+  {
+    "id": "wp_123",
+    "category": "cities_countries",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Madrid",
+      "undercover": "Barcelona (City)"
+    },
+    "fr": {
+      "civilian": "Madrid",
+      "undercover": "Barcelone (Ville)"
+    },
+    "ar": {
+      "civilian": "مدريد",
+      "undercover": "برشلونة (مدينة)"
+    }
+  },
+  {
+    "id": "wp_124",
+    "category": "cities_countries",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Tunis",
+      "undercover": "Casablanca"
+    },
+    "fr": {
+      "civilian": "Tunis",
+      "undercover": "Casablanca"
+    },
+    "ar": {
+      "civilian": "تونس العاصمة",
+      "undercover": "الدار البيضاء"
+    }
+  },
+  {
+    "id": "wp_125",
+    "category": "cities_countries",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Istanbul",
+      "undercover": "Beirut"
+    },
+    "fr": {
+      "civilian": "Istanbul",
+      "undercover": "Beyrouth"
+    },
+    "ar": {
+      "civilian": "إسطنبول",
+      "undercover": "بيروت"
+    }
+  },
+  {
+    "id": "wp_126",
+    "category": "cities_countries",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Morocco",
+      "undercover": "Algeria"
+    },
+    "fr": {
+      "civilian": "Maroc",
+      "undercover": "Algérie"
+    },
+    "ar": {
+      "civilian": "المغرب",
+      "undercover": "الجزائر"
+    }
+  },
+  {
+    "id": "wp_127",
+    "category": "cities_countries",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Saudi Arabia",
+      "undercover": "United Arab Emirates"
+    },
+    "fr": {
+      "civilian": "Arabie Saoudite",
+      "undercover": "Émirats Arabes Unis"
+    },
+    "ar": {
+      "civilian": "المملكة العربية السعودية",
+      "undercover": "الإمارات العربية المتحدة"
+    }
+  },
+  {
+    "id": "wp_128",
+    "category": "cities_countries",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "France",
+      "undercover": "Spain"
+    },
+    "fr": {
+      "civilian": "France",
+      "undercover": "Espagne"
+    },
+    "ar": {
+      "civilian": "فرنسا",
+      "undercover": "إسبانيا"
+    }
+  },
+  {
+    "id": "wp_129",
+    "category": "cities_countries",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Germany",
+      "undercover": "Italy"
+    },
+    "fr": {
+      "civilian": "Allemagne",
+      "undercover": "Italie"
+    },
+    "ar": {
+      "civilian": "ألمانيا",
+      "undercover": "إيطاليا"
+    }
+  },
+  {
+    "id": "wp_130",
+    "category": "cities_countries",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Brazil",
+      "undercover": "Argentina"
+    },
+    "fr": {
+      "civilian": "Brésil",
+      "undercover": "Argentine"
+    },
+    "ar": {
+      "civilian": "البرازيل",
+      "undercover": "الأرجنتين"
+    }
+  },
+  {
+    "id": "wp_131",
+    "category": "cities_countries",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Canada",
+      "undercover": "Australia"
+    },
+    "fr": {
+      "civilian": "Canada",
+      "undercover": "Australie"
+    },
+    "ar": {
+      "civilian": "كندا",
+      "undercover": "أستراليا"
+    }
+  },
+  {
+    "id": "wp_132",
+    "category": "cities_countries",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Japan",
+      "undercover": "China"
+    },
+    "fr": {
+      "civilian": "Japon",
+      "undercover": "Chine"
+    },
+    "ar": {
+      "civilian": "اليابان",
+      "undercover": "الصين"
+    }
+  },
+  {
+    "id": "wp_133",
+    "category": "cities_countries",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "United Kingdom",
+      "undercover": "United States"
+    },
+    "fr": {
+      "civilian": "Royaume-Uni",
+      "undercover": "États-Unis"
+    },
+    "ar": {
+      "civilian": "المملكة المتحدة",
+      "undercover": "الولايات المتحدة الأمريكية"
+    }
+  },
+  {
+    "id": "wp_134",
+    "category": "cities_countries",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Egypt",
+      "undercover": "Iraq"
+    },
+    "fr": {
+      "civilian": "Égypte",
+      "undercover": "Irak"
+    },
+    "ar": {
+      "civilian": "مصر",
+      "undercover": "العراق"
+    }
+  },
+  {
+    "id": "wp_135",
+    "category": "cities_countries",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Kuwait",
+      "undercover": "Bahrain"
+    },
+    "fr": {
+      "civilian": "Koweït",
+      "undercover": "Bahreïn"
+    },
+    "ar": {
+      "civilian": "الكويت",
+      "undercover": "البحرين"
+    }
+  },
+  {
+    "id": "wp_136",
+    "category": "cities_countries",
+    "difficulty": "medium",
+    "en": {
+      "civilian": "Oman",
+      "undercover": "Jordan"
+    },
+    "fr": {
+      "civilian": "Oman",
+      "undercover": "Jordanie"
+    },
+    "ar": {
+      "civilian": "سلطنة عمان",
+      "undercover": "الأردن"
+    }
+  }
+]
