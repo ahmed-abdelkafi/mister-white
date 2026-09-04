@@ -211,8 +211,16 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
                 className="input-field"
                 style={{ width: '90px', padding: '8px', textAlign: 'center' }}
                 value={publicState.settings.mrWhiteCount}
-                onChange={(e) => onUpdateSettings({ mrWhiteCount: Number(e.target.value) })}
+                onChange={(e) => {
+                  const val = Number(e.target.value);
+                  const updates: Record<string, any> = { mrWhiteCount: val };
+                  if (val === 0 && (publicState.settings.undercoverCount === 0 || !publicState.settings.undercoverCount)) {
+                    updates.undercoverCount = 1;
+                  }
+                  onUpdateSettings(updates);
+                }}
               >
+                <option value={0}>0</option>
                 <option value={1}>1</option>
                 <option value={2}>2</option>
                 <option value={3}>3</option>
@@ -226,7 +234,14 @@ export const LobbyScreen: React.FC<LobbyScreenProps> = ({
                 className="input-field"
                 style={{ width: '90px', padding: '8px', textAlign: 'center' }}
                 value={publicState.settings.undercoverCount}
-                onChange={(e) => onUpdateSettings({ undercoverCount: Number(e.target.value) })}
+                onChange={(e) => {
+                  const val = Number(e.target.value);
+                  const updates: Record<string, any> = { undercoverCount: val };
+                  if (val === 0 && (publicState.settings.mrWhiteCount === 0 || !publicState.settings.mrWhiteCount)) {
+                    updates.mrWhiteCount = 1;
+                  }
+                  onUpdateSettings(updates);
+                }}
               >
                 <option value={0}>0</option>
                 <option value={1}>1</option>

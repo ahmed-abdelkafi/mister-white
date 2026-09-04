@@ -258,10 +258,16 @@ export const LocalPassPlayScreen: React.FC<LocalPassPlayScreenProps> = ({
                   className="input-field"
                   style={{ width: '80px', padding: '6px', textAlign: 'center' }}
                   value={localSettings.mrWhiteCount}
-                  onChange={(e) => setLocalSettings({ ...localSettings, mrWhiteCount: Number(e.target.value) })}
+                  onChange={(e) => {
+                    const val = Number(e.target.value);
+                    const newUndercover = (val === 0 && localSettings.undercoverCount === 0) ? 1 : localSettings.undercoverCount;
+                    setLocalSettings({ ...localSettings, mrWhiteCount: val, undercoverCount: newUndercover });
+                  }}
                 >
+                  <option value={0}>0</option>
                   <option value={1}>1</option>
                   <option value={2}>2</option>
+                  <option value={3}>3</option>
                 </select>
               </div>
 
@@ -271,11 +277,16 @@ export const LocalPassPlayScreen: React.FC<LocalPassPlayScreenProps> = ({
                   className="input-field"
                   style={{ width: '80px', padding: '6px', textAlign: 'center' }}
                   value={localSettings.undercoverCount}
-                  onChange={(e) => setLocalSettings({ ...localSettings, undercoverCount: Number(e.target.value) })}
+                  onChange={(e) => {
+                    const val = Number(e.target.value);
+                    const newMrWhite = (val === 0 && localSettings.mrWhiteCount === 0) ? 1 : localSettings.mrWhiteCount;
+                    setLocalSettings({ ...localSettings, undercoverCount: val, mrWhiteCount: newMrWhite });
+                  }}
                 >
                   <option value={0}>0</option>
                   <option value={1}>1</option>
                   <option value={2}>2</option>
+                  <option value={3}>3</option>
                 </select>
               </div>
 
@@ -526,9 +537,20 @@ export const LocalPassPlayScreen: React.FC<LocalPassPlayScreenProps> = ({
             {isHolding ? (
               <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px' }}>
                 <div style={{ fontSize: '3rem' }}>
-                  {currentPlayer.role === 'mr_white' ? '🕵️' : '🔍'}
+                  {currentPlayer.role === 'mr_white' ? '🕵️' : currentPlayer.role === 'undercover' ? '🎭' : '🔍'}
                 </div>
-                <div style={{ fontSize: '1.25rem', fontWeight: '800', color: currentPlayer.role === 'mr_white' ? 'var(--accent-rose)' : 'var(--accent-cyan)' }}>
+                <div
+                  style={{
+                    fontSize: '1.25rem',
+                    fontWeight: '800',
+                    color:
+                      currentPlayer.role === 'mr_white'
+                        ? 'var(--accent-rose)'
+                        : currentPlayer.role === 'undercover'
+                        ? 'var(--accent-amber)'
+                        : 'var(--accent-cyan)',
+                  }}
+                >
                   {t(`role_${currentPlayer.role}` as any)}
                 </div>
                 {currentPlayer.role === 'mr_white' ? (
@@ -809,8 +831,23 @@ export const LocalPassPlayScreen: React.FC<LocalPassPlayScreenProps> = ({
       {stage === 'game_over' && (
         <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', textAlign: 'center' }}>
           <Trophy size={60} color="var(--accent-amber)" className="float-item" />
-          <h1 style={{ fontSize: '2rem', fontWeight: '900', color: winningTeam === 'civilian' ? 'var(--accent-cyan)' : 'var(--accent-rose)' }}>
-            {winningTeam === 'civilian' ? t('winner_civilians') : t('winner_mr_white')}
+          <h1
+            style={{
+              fontSize: '2rem',
+              fontWeight: '900',
+              color:
+                winningTeam === 'civilian'
+                  ? 'var(--accent-cyan)'
+                  : winningTeam === 'undercover'
+                  ? 'var(--accent-amber)'
+                  : 'var(--accent-rose)',
+            }}
+          >
+            {winningTeam === 'civilian'
+              ? t('winner_civilians')
+              : winningTeam === 'undercover'
+              ? t('winner_undercover')
+              : t('winner_mr_white')}
           </h1>
           {winningReasonKey && (
             <p style={{ color: 'var(--text-muted)' }}>

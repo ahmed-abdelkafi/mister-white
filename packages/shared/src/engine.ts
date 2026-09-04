@@ -5,9 +5,19 @@ export function assignRoles(
   settings: GameSettings
 ): { roles: Record<string, Role>; turnOrder: string[] } {
   const count = playerIds.length;
-  const mrWhiteCount = Math.min(settings.mrWhiteCount, Math.floor(count / 3) || 1);
-  const undercoverCount = Math.min(settings.undercoverCount, Math.floor((count - mrWhiteCount) / 2));
-  const civilianCount = count - mrWhiteCount - undercoverCount;
+  let mrWhiteCount = Math.max(0, Math.min(settings.mrWhiteCount, Math.floor(count / 3)));
+  let undercoverCount = Math.max(0, Math.min(settings.undercoverCount, Math.floor((count - mrWhiteCount) / 2)));
+
+  // Guarantee at least 1 impostor (Undercover or Mister White) when starting a game
+  if (mrWhiteCount === 0 && undercoverCount === 0 && count >= 3) {
+    if (settings.mrWhiteCount === 0) {
+      undercoverCount = 1;
+    } else {
+      mrWhiteCount = 1;
+    }
+  }
+
+  const civilianCount = Math.max(1, count - mrWhiteCount - undercoverCount);
 
   const rolePool: Role[] = [
     ...Array(civilianCount).fill('civilian'),
