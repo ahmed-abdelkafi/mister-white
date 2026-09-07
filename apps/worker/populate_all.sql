@@ -405,7 +405,6 @@ INSERT OR REPLACE INTO word_pairs (id, category, difficulty, word_en_civilian, w
   ('wp_398', 'cities_countries', 'medium', 'Istanbul', 'Beirut', 'Istanbul', 'Beyrouth', 'إسطنبول', 'بيروت'),
   ('wp_399', 'cities_countries', 'medium', 'Morocco', 'Algeria', 'Maroc', 'Algérie', 'المغرب', 'الجزائر'),
   ('wp_400', 'cities_countries', 'medium', 'Brazil', 'Argentina', 'Brésil', 'Argentine', 'البرازيل', 'الأرجنتين'),
-,
   ('wp_402', 'fruits', 'medium', 'Grapefruit', 'Pomelo', 'Pamplemousse', 'Pomélo', 'جريب فروت', 'بوملي'),
   ('wp_403', 'fruits', 'medium', 'Blackberry', 'Blueberry', 'Mûre', 'Myrtille', 'توت أسود', 'توت أزرق'),
   ('wp_404', 'fruits', 'medium', 'Apricot', 'Plum', 'Abricot', 'Prune', 'مشمش', 'برقوق'),
