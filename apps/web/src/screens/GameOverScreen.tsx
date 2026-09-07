@@ -65,14 +65,30 @@ export const GameOverScreen: React.FC<GameOverScreenProps> = ({
             textAlign: 'center',
             padding: '16px',
             borderColor: 'var(--accent-purple)',
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '12px',
           }}
         >
-          <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
-            {t('revealed_secret_word', { word: '' })}
+          <div>
+            <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
+              🔍 {t('civilian_word')}
+            </div>
+            <div style={{ fontSize: '1.8rem', fontWeight: '900', color: 'var(--accent-cyan)', marginTop: '2px' }}>
+              "{publicState.revealedWord}"
+            </div>
           </div>
-          <div style={{ fontSize: '1.8rem', fontWeight: '900', color: 'var(--accent-cyan)', marginTop: '4px' }}>
-            "{publicState.revealedWord}"
-          </div>
+
+          {publicState.revealedUndercoverWord && (
+            <div style={{ borderTop: '1px solid rgba(255, 255, 255, 0.08)', paddingTop: '10px' }}>
+              <div style={{ fontSize: '0.85rem', color: 'var(--accent-amber)' }}>
+                🎭 {t('undercover_word')}
+              </div>
+              <div style={{ fontSize: '1.8rem', fontWeight: '900', color: 'var(--accent-amber)', marginTop: '2px' }}>
+                "{publicState.revealedUndercoverWord}"
+              </div>
+            </div>
+          )}
         </div>
       )}
 

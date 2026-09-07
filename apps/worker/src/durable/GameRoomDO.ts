@@ -527,6 +527,10 @@ export class GameRoomDO implements DurableObject {
       winningReason: this.winningReason,
       roundNumber: this.roundNumber,
       revealedWord: this.phase === 'GAME_OVER' && this.currentWordPair ? this.currentWordPair[lang].civilian : null,
+      revealedUndercoverWord:
+        this.phase === 'GAME_OVER' && this.currentWordPair && this.settings.undercoverCount > 0
+          ? this.currentWordPair[lang].undercover
+          : null,
       revealedRoles: this.phase === 'GAME_OVER' ? revealedRoles : undefined,
     };
   }
@@ -543,7 +547,13 @@ export class GameRoomDO implements DurableObject {
       score: player ? player.score : 0,
       hasVoted: player ? player.hasVoted : false,
       connected: player ? player.connected : true,
-      role: player ? player.role : null,
+      role: player
+        ? this.phase === 'GAME_OVER'
+          ? player.role
+          : player.role === 'undercover'
+          ? 'civilian'
+          : player.role
+        : null,
       secretWord: player ? player.secretWord : null,
     };
   }

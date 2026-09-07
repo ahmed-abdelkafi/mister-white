@@ -22,19 +22,6 @@ export const RoleRevealScreen: React.FC<RoleRevealScreenProps> = ({
 
   const role = privateState.role;
   const isMrWhite = role === 'mr_white';
-  const isUndercover = role === 'undercover';
-
-  const roleName = isMrWhite
-    ? t('role_mr_white')
-    : isUndercover
-    ? t('role_undercover')
-    : t('role_civilian');
-
-  const roleDesc = isMrWhite
-    ? t('role_mr_white_desc')
-    : isUndercover
-    ? t('role_undercover_desc')
-    : t('role_civilian_desc');
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', flex: 1, justifyContent: 'center' }}>
@@ -55,57 +42,61 @@ export const RoleRevealScreen: React.FC<RoleRevealScreenProps> = ({
         {isHolding ? (
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px' }}>
             <div style={{ fontSize: '3rem' }}>
-              {isMrWhite ? '🕵️' : isUndercover ? '🎭' : '🔍'}
-            </div>
-
-            <div
-              style={{
-                fontSize: '1.25rem',
-                fontWeight: '800',
-                color: isMrWhite
-                  ? 'var(--accent-rose)'
-                  : isUndercover
-                  ? 'var(--accent-amber)'
-                  : 'var(--accent-cyan)',
-              }}
-            >
-              {roleName}
+              {isMrWhite ? '🕵️' : '🔍'}
             </div>
 
             {isMrWhite ? (
-              <div
-                style={{
-                  fontSize: '1.4rem',
-                  fontWeight: '900',
-                  padding: '12px 18px',
-                  background: 'rgba(244, 63, 94, 0.2)',
-                  borderRadius: '12px',
-                  border: '1px solid var(--accent-rose)',
-                  color: '#fff',
-                }}
-              >
-                ❓ {t('no_word_warning')}
-              </div>
-            ) : (
-              <div
-                style={{
-                  fontSize: '1.75rem',
-                  fontWeight: '900',
-                  padding: '12px 24px',
-                  background: 'rgba(139, 92, 246, 0.25)',
-                  borderRadius: '14px',
-                  border: '1px solid var(--accent-purple)',
-                  color: '#fff',
-                  letterSpacing: '1px',
-                }}
-              >
-                "{privateState.secretWord}"
-              </div>
-            )}
+              <>
+                <div
+                  style={{
+                    fontSize: '1.25rem',
+                    fontWeight: '800',
+                    color: 'var(--accent-rose)',
+                  }}
+                >
+                  {t('role_mr_white')}
+                </div>
 
-            <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', maxWidth: '280px', marginTop: '6px' }}>
-              {roleDesc}
-            </p>
+                <div
+                  style={{
+                    fontSize: '1.4rem',
+                    fontWeight: '900',
+                    padding: '12px 18px',
+                    background: 'rgba(244, 63, 94, 0.2)',
+                    borderRadius: '12px',
+                    border: '1px solid var(--accent-rose)',
+                    color: '#fff',
+                  }}
+                >
+                  ❓ {t('no_word_warning')}
+                </div>
+
+                <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', maxWidth: '280px', marginTop: '6px' }}>
+                  {t('role_mr_white_desc')}
+                </p>
+              </>
+            ) : (
+              <>
+                <div
+                  style={{
+                    fontSize: '1.75rem',
+                    fontWeight: '900',
+                    padding: '12px 24px',
+                    background: 'rgba(139, 92, 246, 0.25)',
+                    borderRadius: '14px',
+                    border: '1px solid var(--accent-purple)',
+                    color: '#fff',
+                    letterSpacing: '1px',
+                  }}
+                >
+                  "{privateState.secretWord}"
+                </div>
+
+                <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', maxWidth: '280px', marginTop: '6px' }}>
+                  {t('role_civilian_desc')}
+                </p>
+              </>
+            )}
           </div>
         ) : (
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '14px' }}>

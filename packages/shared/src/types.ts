@@ -74,6 +74,7 @@ export interface GameStatePublic {
   winningReason: string | null;
   roundNumber: number;
   revealedWord: string | null; // only present in GAME_OVER
+  revealedUndercoverWord?: string | null; // only present in GAME_OVER
   revealedRoles?: Record<string, Role>; // only present in GAME_OVER
 }
 

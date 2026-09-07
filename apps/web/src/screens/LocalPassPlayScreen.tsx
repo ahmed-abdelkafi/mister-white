@@ -40,6 +40,7 @@ export const LocalPassPlayScreen: React.FC<LocalPassPlayScreenProps> = ({
   const [currentPassIndex, setCurrentPassIndex] = useState(0);
   const [isHolding, setIsHolding] = useState(false);
   const [secretWord, setSecretWord] = useState('');
+  const [undercoverWord, setUndercoverWord] = useState('');
   const [eliminatedPlayer, setEliminatedPlayer] = useState<LocalGamePlayer | null>(null);
   const [mrWhiteGuess, setMrWhiteGuess] = useState('');
   const [localSettings, setLocalSettings] = useState({
@@ -91,6 +92,7 @@ export const LocalPassPlayScreen: React.FC<LocalPassPlayScreenProps> = ({
     const civWord = wordPair[lang]?.civilian || wordPair.en.civilian;
     const underWord = wordPair[lang]?.undercover || wordPair.en.undercover;
     setSecretWord(civWord);
+    setUndercoverWord(underWord);
 
     const { roles } = assignRoles(players.map((p) => p.id), {
       ...DEFAULT_GAME_SETTINGS,
@@ -537,30 +539,35 @@ export const LocalPassPlayScreen: React.FC<LocalPassPlayScreenProps> = ({
             {isHolding ? (
               <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px' }}>
                 <div style={{ fontSize: '3rem' }}>
-                  {currentPlayer.role === 'mr_white' ? '🕵️' : currentPlayer.role === 'undercover' ? '🎭' : '🔍'}
-                </div>
-                <div
-                  style={{
-                    fontSize: '1.25rem',
-                    fontWeight: '800',
-                    color:
-                      currentPlayer.role === 'mr_white'
-                        ? 'var(--accent-rose)'
-                        : currentPlayer.role === 'undercover'
-                        ? 'var(--accent-amber)'
-                        : 'var(--accent-cyan)',
-                  }}
-                >
-                  {t(`role_${currentPlayer.role}` as any)}
+                  {currentPlayer.role === 'mr_white' ? '🕵️' : '🔍'}
                 </div>
                 {currentPlayer.role === 'mr_white' ? (
-                  <div style={{ fontSize: '1.2rem', fontWeight: '900', color: 'var(--accent-rose)' }}>
-                    {t('no_word_warning')}
-                  </div>
+                  <>
+                    <div
+                      style={{
+                        fontSize: '1.25rem',
+                        fontWeight: '800',
+                        color: 'var(--accent-rose)',
+                      }}
+                    >
+                      {t('role_mr_white')}
+                    </div>
+                    <div style={{ fontSize: '1.2rem', fontWeight: '900', color: 'var(--accent-rose)' }}>
+                      {t('no_word_warning')}
+                    </div>
+                    <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', maxWidth: '280px', marginTop: '6px' }}>
+                      {t('role_mr_white_desc')}
+                    </p>
+                  </>
                 ) : (
-                  <div style={{ fontSize: '1.75rem', fontWeight: '900', color: '#fff' }}>
-                    "{currentPlayer.secretWord}"
-                  </div>
+                  <>
+                    <div style={{ fontSize: '1.75rem', fontWeight: '900', color: '#fff' }}>
+                      "{currentPlayer.secretWord}"
+                    </div>
+                    <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', maxWidth: '280px', marginTop: '6px' }}>
+                      {t('role_civilian_desc')}
+                    </p>
+                  </>
                 )}
               </div>
             ) : (
@@ -776,13 +783,17 @@ export const LocalPassPlayScreen: React.FC<LocalPassPlayScreenProps> = ({
               <div className="glass-panel modal-card" style={{ maxWidth: '380px', width: '100%', textAlign: 'center', padding: '24px', display: 'flex', flexDirection: 'column', gap: '16px', borderColor: 'var(--accent-amber)' }}>
                 <div style={{ fontSize: '3rem' }}>⚠️</div>
                 <h3 style={{ fontSize: '1.35rem', fontWeight: '900', color: 'var(--accent-amber)' }}>
-                  {t('civilian_eliminated_alert')}
+                  {eliminatedAnnouncement.role === 'undercover'
+                    ? t('undercover_eliminated_alert')
+                    : t('civilian_eliminated_alert')}
                 </h3>
                 <p style={{ color: '#fff', fontWeight: '600' }}>
                   {eliminatedAnnouncement.avatar} {eliminatedAnnouncement.name} ({t(`role_${eliminatedAnnouncement.role}` as any)})
                 </p>
                 <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>
-                  {t('civilian_eliminated_sub')}
+                  {eliminatedAnnouncement.role === 'undercover'
+                    ? t('undercover_eliminated_sub')
+                    : t('civilian_eliminated_sub')}
                 </p>
 
                 <button
@@ -855,9 +866,26 @@ export const LocalPassPlayScreen: React.FC<LocalPassPlayScreenProps> = ({
             </p>
           )}
 
-          <div className="glass-panel">
-            <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>{t('revealed_secret_word', { word: '' })}</div>
-            <div style={{ fontSize: '1.8rem', fontWeight: '900', color: 'var(--accent-cyan)' }}>"{secretWord}"</div>
+          <div className="glass-panel" style={{ display: 'flex', flexDirection: 'column', gap: '12px', textAlign: 'center' }}>
+            <div>
+              <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
+                🔍 {t('civilian_word')}
+              </div>
+              <div style={{ fontSize: '1.8rem', fontWeight: '900', color: 'var(--accent-cyan)', marginTop: '2px' }}>
+                "{secretWord}"
+              </div>
+            </div>
+
+            {players.some((p) => p.role === 'undercover') && undercoverWord && (
+              <div style={{ borderTop: '1px solid rgba(255, 255, 255, 0.08)', paddingTop: '10px' }}>
+                <div style={{ fontSize: '0.85rem', color: 'var(--accent-amber)' }}>
+                  🎭 {t('undercover_word')}
+                </div>
+                <div style={{ fontSize: '1.8rem', fontWeight: '900', color: 'var(--accent-amber)', marginTop: '2px' }}>
+                  "{undercoverWord}"
+                </div>
+              </div>
+            )}
           </div>
 
           {/* Leaderboard & Stats Panel */}
