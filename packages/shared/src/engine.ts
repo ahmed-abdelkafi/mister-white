@@ -1,5 +1,15 @@
 import { GameSettings, Role, VoteTally, WordPair } from './types';
 
+/** Unbiased Fisher-Yates shuffle (sorting with a random comparator is not uniform). Returns a new array. */
+export function shuffle<T>(items: readonly T[], random: () => number = Math.random): T[] {
+  const out = [...items];
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(random() * (i + 1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+}
+
 export function assignRoles(
   playerIds: string[],
   settings: GameSettings
@@ -25,9 +35,8 @@ export function assignRoles(
     ...Array(undercoverCount).fill('undercover'),
   ];
 
-  // Fisher-Yates Shuffle
-  const shuffledPlayers = [...playerIds].sort(() => Math.random() - 0.5);
-  const shuffledRoles = [...rolePool].sort(() => Math.random() - 0.5);
+  const shuffledPlayers = shuffle(playerIds);
+  const shuffledRoles = shuffle(rolePool);
 
   const roles: Record<string, Role> = {};
   shuffledPlayers.forEach((pid, idx) => {
@@ -36,7 +45,7 @@ export function assignRoles(
 
   return {
     roles,
-    turnOrder: [...shuffledPlayers].sort(() => Math.random() - 0.5),
+    turnOrder: shuffle(shuffledPlayers),
   };
 }
 

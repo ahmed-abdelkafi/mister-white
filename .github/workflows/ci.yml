@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Unit tests (game engine)
+        run: npm test
+      - name: Typecheck shared and i18n packages
+        run: npm --workspace=@mister-white/shared run build && npm --workspace=@mister-white/i18n run build
+      - name: Build web app
+        run: npm --workspace=@mister-white/web run build
